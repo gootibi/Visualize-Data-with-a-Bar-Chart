@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 84, 223);
+}
+
+svg {
+    margin-top: 30px;
+    background-color: rgb(174, 192, 226);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(46, 89, 175);
+}
+
+.bar {
+    fill: rgb(47, 73, 73);
+}
+
+.bar:hover {
+    fill: rgb(162, 200, 200);
+}
+
+#title {
+    font-size: 25px;
+    font-weight: 900;
+    fill: rgb(42, 54, 54);
+}
+
+#tooltip {
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(228, 234, 234);
+    font-weight: 900;
+}
